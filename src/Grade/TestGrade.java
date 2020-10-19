@@ -8,14 +8,14 @@ public class TestGrade {
     public void displayStart(){
         int i=1;
         for(int id: studentID){
-            System.out.println("ID: " + i + ".    Grade: " + id);
+            System.out.println(i + ".    ID: " + id);
             i++;
         }
     }
 
     public void displayEnd(){
         for(int i=0;i< studentID.length;i++){
-            System.out.println("ID: " + (i+1) + ". " + studentID[i] + "    Grade: " + studentsGrade[i]);
+            System.out.println((i+1) + ".    ID:" + studentID[i] + "    Grade: " + studentsGrade[i]);
         }
     }
 
